@@ -77,26 +77,29 @@ GEM
     tilt (2.0.10)
     tzinfo (2.0.4)
       concurrent-ruby (~> 1.0)
+    webrick (1.8.1)
     zeitwerk (2.4.2)
 
 PLATFORMS
   universal-darwin-20
+  x86_64-linux
 
 DEPENDENCIES
-  activerecord (~> 6.1)
+  activerecord
   database_cleaner
-  faker (~> 2.18)
+  faker
   pry
-  rack-contrib (~> 2.3)
-  rack-test (~> 1.1)
+  rack-contrib
+  rack-test
   rake
   require_all
   rerun
   rspec
-  rspec-json_expectations (~> 2.2)
-  sinatra (~> 2.1)
+  rspec-json_expectations
+  sinatra
   sinatra-activerecord
-  sqlite3 (~> 1.4)
+  sqlite3
+  webrick
 
 BUNDLED WITH
    2.2.23
